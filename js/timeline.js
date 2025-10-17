@@ -54,13 +54,13 @@ function renderTimeline(limit = null) {
     li.innerHTML = `
       <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
       <time class="mb-1 text-sm font-bold leading-none text-red-600 dark:text-red-500">${activity.time}</time>
-      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+      <h3 class="text-lg font-semibold text-gray-700">
         <a href="${activity.link||'#'}" … 
         class="text-black hover:underline hover:text-blue-600 dark:hover:text-blue-400">
          ${activity.title}
         </a>
       </h3>
-      ${activity.description ? `<p class="text-base font-normal text-gray-500 dark:text-gray-400">${activity.description}</p>` : ''}
+      ${activity.description ? `<p class="text-base font-normal text-gray-600 dark:text-gray-500">${activity.description}</p>` : ''}
     `;
     
     timeline.appendChild(li);

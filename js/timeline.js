@@ -1,34 +1,40 @@
 // Your activity data - add as many as you want
 const activities = [
   {
-    time: "2 min",
-    title: "Citi Set to Raise €2.75 Billion From Bond Offering in Europe",
-    link: "https://example.com/article1",
-    description: ""
+    time: "16 Oktober,",
+    title: "Kerja membersihkan puing reruntuhan bangunan",
+    link: "https://www.facebook.com/share/v/1FUnLsz8fc/",
+    description: "📍Gaza<br>Kini selepas gencatan senjata, kami berusaha membersih dan membuka jalan, agar keluarga Gaza dapat kembali menjejak rumah mereka."
   },
   {
-    time: "12 min",
-    title: "Finma to Appeal Court Decision on Credit Suisse AT1s",
+    time: "15 Oktober,",
+    title: "🛳 The Kindness Ship Dalam Pelayaran ke Gaza!",
+    link: "https://www.facebook.com/share/v/1FUnLsz8fc/",
+    description: "Dengan sokongan anda dan di bawah koordinasi AFAD Turki, Kindness Ship telah berlepas dari Pelabuhan Antarabangsa Mersin, membawa bantuan kemanusiaan dan harapan.<br>Terima kasih kerana solidariti bersama Palestin. 🇵🇸"
+  },
+  {
+    time: "14 Oktober, 2025",
+    title: "Lori Bantuan di Pelabuhan Mersin",
     link: "https://example.com/article2",
-    description: ""
+    description: "Di Pelabuhan Mersin, 60 tan bantuan makanan untuk Gaza akan dihantar tidak lama lagi, diselaraskan oleh AFAD, agensi pengurusan bencana Turki.<br>Terima kasih atas sokongan anda!"
   },
   {
-    time: "25 min",
-    title: "Croatia Pipeline Firm Seeks New Sales as US Curbs Hit Key Client",
-    link: "https://example.com/article3",
-    description: ""
+    time: "14 Oktober, 2025",
+    title: "Kami gandakan misi bantuan di Gaza.",
+    link: "https://www.facebook.com/share/v/1Bm2j2Ggx2/",
+    description: "Selepas gencatan senjata, kami gandakan misi bantuan di Gaza. Sumbangan anda menyediakan hidangan panas kepada saudara-saudara kita di sana.<br>Terima kasih! *Koordinasi Fokus kita ialah Susu untuk bayi dan makanan Tin"
   },
   {
-    time: "29 min",
-    title: "Copper Rebounds as Traders See $12,000 Within Reach After Rally",
-    link: "https://example.com/article4",
-    description: ""
+    time: "14 Oktober, 2025",
+    title: "Never Give Up! (Gaza)",
+    link: "https://www.facebook.com/share/v/1QxCdn6C5E/",
+    description: "Di sebalik kehancuran, penderitaan, dan semua yang telah hilang, kami akan kembali dan membina semula semuanya.<br>keluarga yang pulang ke Gaza tidak menyerah harapan mereka tetap menyala"
   },
   {
-    time: "40 min",
-    title: "Stocks Gain as Strong Earnings Soothe Trade Fears",
-    link: "https://example.com/article5",
-    description: ""
+    time: "13 Oktober, 2025",
+    title: "Sejak 7 Okt 2023,kami tetap di lapangan bersama Gaza",
+    link: "https://www.facebook.com/share/v/17Fm2gLkzk/",
+    description: "menyalurkan bantuan kemanusiaan—semuanya dengan sokongan anda. Alhamdulillah"
   }
   // Add more activities here...
 

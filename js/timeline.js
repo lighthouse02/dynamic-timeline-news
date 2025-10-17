@@ -1,13 +1,13 @@
 // Your activity data - add as many as you want
 const activities = [
   {
-    time: "16 Oktober,",
+    time: "16 Oktober, 2025",
     title: "Kerja membersihkan puing reruntuhan bangunan",
     link: "https://www.facebook.com/share/v/1FUnLsz8fc/",
     description: "📍Gaza<br>Kini selepas gencatan senjata, kami berusaha membersih dan membuka jalan, agar keluarga Gaza dapat kembali menjejak rumah mereka."
   },
   {
-    time: "15 Oktober,",
+    time: "15 Oktober, 2025",
     title: "🛳 The Kindness Ship Dalam Pelayaran ke Gaza!",
     link: "https://www.facebook.com/share/v/1FUnLsz8fc/",
     description: "Dengan sokongan anda dan di bawah koordinasi AFAD Turki, Kindness Ship telah berlepas dari Pelabuhan Antarabangsa Mersin, membawa bantuan kemanusiaan dan harapan.<br>Terima kasih kerana solidariti bersama Palestin. 🇵🇸"

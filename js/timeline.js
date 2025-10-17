@@ -41,8 +41,10 @@ const activities = [
 ];
 
 // Function to render the timeline
+
 function renderTimeline(limit = null) {
   const timeline = document.getElementById('timeline');
+  timeline.innerHTML = '';    // <— clear any existing items
   const itemsToShow = limit ? activities.slice(0, limit) : activities;
   
   itemsToShow.forEach((activity, index) => {
@@ -53,8 +55,9 @@ function renderTimeline(limit = null) {
       <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
       <time class="mb-1 text-sm font-bold leading-none text-red-600 dark:text-red-500">${activity.time}</time>
       <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-        <a href="${activity.link || '#'}" target="_blank" class="hover:underline hover:text-blue-600 dark:hover:text-blue-400">
-          ${activity.title}
+        <a href="${activity.link||'#'}" … 
+        class="text-black hover:underline hover:text-blue-600 dark:text-white dark:hover:text-blue-400">
+         ${activity.title}
         </a>
       </h3>
       ${activity.description ? `<p class="text-base font-normal text-gray-500 dark:text-gray-400">${activity.description}</p>` : ''}
@@ -64,10 +67,9 @@ function renderTimeline(limit = null) {
   });
 }
 
-// Check if we're on the main page or all activities page
-const isAllPage = window.location.pathname.includes('all-activities');
-if (isAllPage) {
-  renderTimeline(); // Show all activities
+if (window.location.pathname.includes('all-activities')) {
+  renderTimeline();      // show all
 } else {
-  renderTimeline(5); // Show only 5 latest activities
+  renderTimeline(5);     // show only 5 latest
 }
+

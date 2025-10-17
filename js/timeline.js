@@ -49,11 +49,22 @@ function renderTimeline(limit = null) {
   
   itemsToShow.forEach((activity, index) => {
     const li = document.createElement('li');
+    // Inside your renderTimeline function, replace the dot div creation with this:
+
+  
     li.className = index === itemsToShow.length - 1 ? 'ms-4' : 'mb-10 ms-4';
+    const isLatest = index === 0;
+    const dotHtml = isLatest
+    ? `
+      <div class="relative ms-[-1.5rem] mt-1.5">
+        <span class="absolute inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+        <span class="absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75 animate-ping"></span>
+      </div>`
+    : `<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>`;
     
     li.innerHTML = `
-      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time class="mb-1 text-sm font-bold leading-none text-red-600 dark:text-red-500">${activity.time}</time>
+    ${dotHtml}
+    <time class="mb-1 text-sm font-bold leading-none text-red-600 dark:text-red-500">${activity.time}</time>
       <h3 class="text-lg font-semibold text-gray-700">
         <a href="${activity.link||'#'}" … 
         class="text-black hover:underline hover:text-blue-600 dark:hover:text-blue-400">

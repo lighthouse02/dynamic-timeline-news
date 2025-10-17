@@ -60,7 +60,7 @@ function renderTimeline(limit = null) {
          ${activity.title}
         </a>
       </h3>
-      ${activity.description ? `<p class="text-base font-normal text-gray-600 dark:text-gray-500">${activity.description}</p>` : ''}
+      ${activity.description ? `<p class="text-base font-normal text-gray-750 dark:text-gray-500">${activity.description}</p>` : ''}
     `;
     
     timeline.appendChild(li);

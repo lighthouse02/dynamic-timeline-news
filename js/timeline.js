@@ -70,6 +70,6 @@ function renderTimeline(limit = null) {
 if (window.location.pathname.includes('all-activities')) {
   renderTimeline();      // show all
 } else {
-  renderTimeline(5);     // show only 5 latest
+  renderTimeline(3);     // show only 5 latest
 }
 

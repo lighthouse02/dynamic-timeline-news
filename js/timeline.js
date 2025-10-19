@@ -1,5 +1,10 @@
 // Your activity data - add as many as you want
-const activities = [
+const {
+  }
+    time: "20 Oktober, 2025",
+    title: "kami telah mengagihkan 1,000 roti",
+    link: "https://www.facebook.com/share/r/1Ba4pLA8UG/?mibextid=wwXIfr",
+    description: "🚨 Sebagai sebahagian daripada misi bantuan kecemasan di Gaza, kami telah mengagihkan 1,000 roti kepada keluarga yang terpaksa berlindung di khemah akibat kehilangan tempat tinggal. Dengan sokongan anda, lebih ramai dapat kita bantu!".
   {
     time: "16 Oktober, 2025",
     title: "Kerja membersihkan puing reruntuhan bangunan",

@@ -1,6 +1,12 @@
 // Your activity data - add as many as you want
 const activities = [
   {
+    time: "21 Oktober, 2025",
+    title: "300 keluarga, agihan Susu Bayi di Gaza",
+    link: "https://www.facebook.com/myhayratrelief/videos/4181856482084089",
+    description: "Kami telah mengagihkan susu bayi kepada 300 keluarga di Hospital Al-Kheir dan kem pelarian di Gaza Utara.🍼 Dengan sokongan anda, misi bantuan kecemasan ini terus dijalankan tanpa henti."
+  }, 
+  {
     time: "20 Oktober, 2025",
     title: "kami telah mengagihkan 1,000 roti",
     link: "https://www.facebook.com/share/r/1Ba4pLA8UG/?mibextid=wwXIfr",

@@ -78,8 +78,7 @@ function renderTimeline(limit = null) {
     ${dotHtml}
     <time class="mb-1 text-sm font-bold leading-none text-red-600 dark:text-red-500">${activity.time}</time>
       <h3 class="text-lg font-semibold text-gray-700">
-        <a href="${activity.link||'#'}" … 
-        class="text-black hover:underline hover:text-blue-600 dark:hover:text-blue-400">
+        <a href="${activity.link||'#'}" target="_blank" class="text-black hover:underline hover:text-blue-600 dark:hover:text-blue-400">
          ${activity.title}
         </a>
       </h3>

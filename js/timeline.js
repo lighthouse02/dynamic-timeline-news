@@ -3,7 +3,7 @@ const activities = [
   {
     time: "21 Oktober, 2025",
     title: "300 keluarga, agihan Susu Bayi di Gaza",
-    link: "https://www.facebook.com/myhayratrelief/videos/4181856482084089",
+    link: "https://www.facebook.com/watch/?v=4181856482084089",
     description: "Kami telah mengagihkan susu bayi kepada 300 keluarga di Hospital Al-Kheir dan kem pelarian di Gaza Utara.🍼 Dengan sokongan anda, misi bantuan kecemasan ini terus dijalankan tanpa henti."
   }, 
   {
@@ -27,7 +27,7 @@ const activities = [
   {
     time: "14 Oktober, 2025",
     title: "Lori Bantuan di Pelabuhan Mersin",
-    link: "https://example.com/article2",
+    link: "https://www.facebook.com/share/v/15wHhzqufV/",
     description: "Di Pelabuhan Mersin, 60 tan bantuan makanan untuk Gaza akan dihantar tidak lama lagi, diselaraskan oleh AFAD, agensi pengurusan bencana Turki.<br>Terima kasih atas sokongan anda!"
   },
   {

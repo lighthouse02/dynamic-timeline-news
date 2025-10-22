@@ -2,6 +2,12 @@
 const activities = [
   {
     time: "22 Oktober, 2025",
+    title: "Air minuman bersih",
+    link: "https://www.facebook.com/reel/2733397713671952",
+    description: "📍Kami berada di lapangan di Gaza yang terjejas akibat perang, menyalurkan air minuman bersih kepada keluarga yang kehilangan tempat tinggal dan kini berlindung di pusat perlindungan yang sesak."
+  },
+  {
+    time: "22 Oktober, 2025",
     title: "1,000 guni tepung",
     link: "https://www.facebook.com/myhayratrelief/videos/1011740734412239",
     description: "Alhamdulillah, dengan izin Allah dan sokongan anda,kami telah mengagihkan 1,000 guni tepung ke pelbagai kawasan di Gaza, sebagai sebahagian daripada usaha bantuan kecemasan yang berterusan. Semoga setiap sumbangan menjadi amal yang diberkati."

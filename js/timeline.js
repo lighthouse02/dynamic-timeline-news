@@ -1,6 +1,12 @@
 // Your activity data - add as many as you want
 const activities = [
   {
+    time: "22 Oktober, 2025",
+    title: "1,000 guni tepung",
+    link: "https://www.facebook.com/myhayratrelief/videos/1011740734412239",
+    description: "Alhamdulillah, dengan izin Allah dan sokongan anda,kami telah mengagihkan 1,000 guni tepung ke pelbagai kawasan di Gaza, sebagai sebahagian daripada usaha bantuan kecemasan yang berterusan. Semoga setiap sumbangan menjadi amal yang diberkati."
+  }, 
+  {
     time: "21 Oktober, 2025",
     title: "300 keluarga, agihan Susu Bayi di Gaza",
     link: "https://www.facebook.com/watch/?v=4181856482084089",
